@@ -1,0 +1,131 @@
+/* General styling */
+.Div {
+    width: 100%;
+}
+.Img {
+    width: 390px;
+    height: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    margin-top: 1rem
+}
+body {
+    background-image: url('https://i.imgur.com/TpiNyAh.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: #212529;
+}
+
+/* Buttons styling */
+.spotify-button {
+    margin-top: 5px;
+    background-color: #1DB954;
+}
+.spotify-button:hover {
+    background-color: #17a74a;
+}
+
+.music-button {
+    padding: 10px 80px;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    margin-bottom: 5px
+}
+
+.music-button img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+.apple-music-button {
+    background-color: #FA57C1;
+}
+
+.apple-music-button:hover {
+    background-color: #E04AA8;
+}
+
+.youtube-button {
+    background-color: #FF0000;
+}
+
+.youtube-button:hover {
+    background-color: #CC0000;
+}
+
+.soundcloud-button {
+    background-color: #FF5500;
+}
+
+.soundcloud-button:hover {
+    background-color: #CC4400;
+}
+
+.amazon-music-button {
+    background-color: #00A8E1;
+}
+
+.amazon-music-button:hover {
+    background-color: #007BA1;
+}
+
+.tidal-button {
+    background-color: #000000;
+}
+
+.tidal-button:hover {
+    background-color: #333333;
+}
+
+.youtube-music-button {
+    background-color: #FF0000;
+}
+
+.youtube-music-button:hover {
+    background-color: #CC0000;
+}
+
+/* Responsive Design for phones and smaller screens */
+@media screen and (max-width: 768px) {
+    .Img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .music-button {
+        width: 50%; /* Reduce button width */
+        padding: 10px 40px; /* Adjust padding for smaller screens */
+        font-size: 20px; /* Smaller text size for buttons */
+    }
+
+    body {
+        background-size: cover; /* Ensure the background scales properly */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .music-button {
+        width: 80%; /* More narrow width for smaller screens */
+        padding: 10px 20px; /* Adjust padding to keep the buttons readable */
+        font-size: 18px; /* Even smaller text size */
+    }
+}
+
